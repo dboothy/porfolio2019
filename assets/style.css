@@ -1,0 +1,128 @@
+@import url(http://db.onlinewebfonts.com/c/2b9fcaa048890cfc7fef75901b77a90b?family=SF+Intellivised);
+
+@font-face {font-family: "SF Intellivised";
+    src: url("http://db.onlinewebfonts.com/t/2b9fcaa048890cfc7fef75901b77a90b.eot");
+    src: url("http://db.onlinewebfonts.com/t/2b9fcaa048890cfc7fef75901b77a90b.eot?#iefix") format("embedded-opentype"),
+    url("http://db.onlinewebfonts.com/t/2b9fcaa048890cfc7fef75901b77a90b.woff2") format("woff2"),
+    url("http://db.onlinewebfonts.com/t/2b9fcaa048890cfc7fef75901b77a90b.woff") format("woff"),
+    url("https://db.onlinewebfonts.com/t/2b9fcaa048890cfc7fef75901b77a90b.ttf") format("truetype"),
+    url("http://db.onlinewebfonts.com/t/2b9fcaa048890cfc7fef75901b77a90b.svg#SF Intellivised") format("svg");
+}
+
+body{
+	background-color: #c3aa69;
+}
+
+header{
+	background-color: black;
+	opacity: 60;
+	padding: 40px;
+
+}
+footer{
+	padding: 40px;
+	background-color: black;
+	color:white;
+
+}
+.page-header{
+	color: white;
+}
+
+section{
+	display:flex;
+	flex-direction: row;
+}
+
+
+.works{
+
+	width: 400px;
+height: 400px;
+
+}
+
+#thumbnail1{
+
+
+
+
+}
+
+#scraper{
+
+}
+
+#sf-app{
+
+}
+
+#buyselltrade{
+
+}
+
+#autofinder{
+
+}
+
+#joecoolstars{
+
+}
+
+.heading{
+	font-family:"SF Intellivised";
+}
+
+.nav{
+	padding: 20px;
+	background-color: #008080;
+	border-radius: 30%;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	line-height: 10px;
+	transition-duration: .4s;
+	transform: perspective(5px) translateZ(0)
+
+
+
+
+
+}
+
+#nav:hover { 
+    background-color: green;
+	border-radius: 30%;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	line-height: 10px;
+	margin-top: .4em;
+    padding: 1.5em;
+    cursor: pointer;
+    text-decoration: none;
+    color: #666;
+}
+
+
+
+
+header{
+	background-color: black;
+	opacity: 20;
+	padding: 40px;
+
+}
+
+
+
+/*button{
+	background-color: red;
+	width: 300px;
+	height:300px;
+	align-items: center;
+	text-align: center;
+	display: flex;
+	margin:0 auto;
+}*/
+
+button:hover {
+	background-color: green;	
+}
+
