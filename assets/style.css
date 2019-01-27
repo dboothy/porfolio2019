@@ -9,7 +9,34 @@
     url("http://db.onlinewebfonts.com/t/2b9fcaa048890cfc7fef75901b77a90b.svg#SF Intellivised") format("svg");
 }
 
-body{
+
+nav ul li:hover {
+   background-color: white;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+.logo-container{
+
+}
+
+.imagepath{
+
+}
+
+.card .card-image img {
+    display: block;
+    border-radius: 2px 2px 0 0;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+/*body{
 	background-image: url("./images/background1.png");
 }
 
@@ -19,6 +46,37 @@ header{
 	padding: 40px;
 
 }
+
+#navbar{
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+
+}
+
+#navbar > li {
+	flex: 1;
+	font-family: "Mandali"
+}
+
+@media all and (max-width: 400px) {
+  #navbar > li {
+    flex-basis: 100%;
+  }
+
+}
+*/
+
+/*li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
 footer{
 	padding: 40px;
 	background-color: black;
@@ -33,7 +91,7 @@ footer{
 
 section{
 	display:flex;
-	flex-direction: row;
+	flex-direction: column;
 }
 
 
@@ -74,17 +132,7 @@ height: 400px;
 .heading{
 	font-family:"SF Intellivised";
 }
-
-.nav{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-
-
-
-
-
-}
+*/
 
 /*#nav:hover { 
     background-color: green;
@@ -100,14 +148,14 @@ height: 400px;
 */
 
 
-
+/*
 header{
 	background-color: black;
 	opacity: 20;
 	padding: 40px;
 
 }
-
+*/
 
 
 /*button{
@@ -120,7 +168,7 @@ header{
 	margin:0 auto;
 }*/
 
-button:hover {
+/*button:hover {
 	background-color: green;	
 }
-
+*/
