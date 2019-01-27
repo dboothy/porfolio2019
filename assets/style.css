@@ -10,7 +10,7 @@
 }
 
 body{
-	background-color: #c3aa69;
+	background-image: url("./images/background1.png");
 }
 
 header{
@@ -27,6 +27,8 @@ footer{
 }
 .page-header{
 	color: white;
+	font-family: "SF Intellivised";
+	text-align: center;
 }
 
 section{
@@ -74,13 +76,9 @@ height: 400px;
 }
 
 .nav{
-	padding: 20px;
-	background-color: #008080;
-	border-radius: 30%;
-	font-family: 'Ubuntu Condensed', sans-serif;
-	line-height: 10px;
-	transition-duration: .4s;
-	transform: perspective(5px) translateZ(0)
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 
 
 
@@ -88,7 +86,7 @@ height: 400px;
 
 }
 
-#nav:hover { 
+/*#nav:hover { 
     background-color: green;
 	border-radius: 30%;
 	font-family: 'Ubuntu Condensed', sans-serif;
@@ -99,7 +97,7 @@ height: 400px;
     text-decoration: none;
     color: #666;
 }
-
+*/
 
 
 
