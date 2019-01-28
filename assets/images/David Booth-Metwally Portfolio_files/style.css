@@ -16,36 +16,6 @@ nav ul li:hover {
 
 nav ul li {
 	display: inline-block;
-  text-align: center;
-}
-
-#app-title{
-  background-color: black;
-  color: white;
-  font-weight: bolder;
-  text-align: center;
-}
-
-
-#app-title:hover {
-  background-color: white;
-  opacity: .4;
-  color: black;
-  text-align: center;
-
-}
-
-#app-body{
-  position: absolute;
-  z-index: 1;
-}
-
-#card-frame{
-  padding: 0;
-}
-
-#popout-frame{
-  padding:0;
 }
 
 .logo-container{
@@ -69,10 +39,6 @@ nav ul li {
     top: 0;
     bottom: 0;
     width: 100%;
-}
-
-.footer-copyright{
-  text-align: center;
 }
 /*body{
 	background-image: url("./images/background1.png");
