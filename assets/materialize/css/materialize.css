@@ -5880,7 +5880,6 @@ body.keyboard-focused .dropdown-content li:focus {
 
 .collapsible-body {
   display: none;
-  border-bottom: solid #ddd;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 1.52rem;
