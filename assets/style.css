@@ -36,6 +36,11 @@ nav ul li {
 
 }
 
+.image-link{
+  text-align: center;
+
+}
+
 #app-body{
   position: absolute;
   z-index: 1;
