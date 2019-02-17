@@ -46,6 +46,11 @@ nav ul li {
   z-index: 1;
 }
 
+#app-body p {
+  margin-top:-5px;
+}
+
+
 #card-frame{
   padding: 0;
 }
@@ -80,6 +85,59 @@ nav ul li {
 .footer-copyright{
   text-align: center;
 }
+
+#view-button{
+  font-size: 10px;
+  margin-top: -30px;
+  margin-left: 134px;
+}
+
+main{
+
+    display: block;
+    margin-bottom: 35px;
+}
+
+#techskills-wrapper{
+  text-align: center;
+}
+
+#jobtitle{
+  font-style: italic;
+}
+
+#experiencelist li{
+  list-style-type: circle; 
+
+
+}
+
+#volunteer-wrapper{
+
+}
+
+#education-wrapper p{
+font-size: 1.15rem;
+    line-height: 110%;
+    margin: .7666666667rem 0 .46rem
+
+}
+
+#downloadButton{
+  width: 181px;
+  padding-right: 24px;
+
+}
+
+#lendingclubImage{
+  margin-left: -51px;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    margin-top: -6px;
+}
+
+
 /*body{
 	background-image: url("./images/background1.png");
 }
