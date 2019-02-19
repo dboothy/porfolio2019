@@ -44,15 +44,56 @@ nav ul li {
 #app-body{
   position: absolute;
   z-index: 1;
+  background-color: white;
+  opacity: .95;
 }
 
 #app-body p {
   margin-top:-5px;
+  
+
 }
 
 
 #card-frame{
   padding: 0;
+
+}
+
+/*.technologies{
+
+display: inline-block;
+height: 32px;
+font-size: 13px;
+font-weight: 500;
+color: rgba(0,0,0,0.6);
+line-height: 32px;
+padding: 0 12px;
+border-radius: 16px;
+background-color: #e4e4e4;
+position: absolute;
+z-index: 0;
+top: 80px;
+left: 61px;
+
+}*/
+
+.technologies{
+
+display: inline-block;
+height: 32px;
+font-size: 13px;
+font-weight: 500;
+color: rgba(0,0,0,0.6);
+line-height: 32px;
+padding: 0 12px;
+border-radius: 16px;
+background-color: #e4e4e4;
+position: absolute;
+z-index: 0;
+top: 80px;
+left: 61px;
+
 }
 
 #popout-frame{
@@ -79,7 +120,9 @@ nav ul li {
     right: 0;
     top: 0;
     bottom: 0;
-    width: 100%;
+    width: 268.75px;
+    height: 179.11px;
+
 }
 
 .footer-copyright{
@@ -129,14 +172,51 @@ font-size: 1.15rem;
 
 }
 
-#lendingclubImage{
-  margin-left: -51px;
+.companyImage{
+  margin-left: -61px;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  margin-top: -6px;
+}
+
+
+.schoolImage{
+margin-left: -269px;
     height: 50px;
     width: 50px;
     position: absolute;
     margin-top: -6px;
 }
+.pill{
+display: inline-block;
+    height: 32px;
+    font-size: 13px;
+    font-weight: 500;
+    color: rgba(0,0,0,0.6);
+    line-height: 32px;
+    padding: 0 12px;
+    border-radius: 16px;
+    background-color: #e4e4e4;
 
+}
+
+
+
+/*#card-frame p {
+    margin: -30px;
+}
+*/
+
+
+.card-inside{
+    position: absolute;
+    top: 68px;
+    width: 199px;
+    left: 35px;
+    
+
+ }
 
 /*body{
 	background-image: url("./images/background1.png");

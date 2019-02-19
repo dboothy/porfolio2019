@@ -1,6 +1,8 @@
-var elem = document.querySelector('.tabs');
-     var options = {}
-     var instance = M.Tabs.init(elem, options);
+// var elem = document.querySelector('.tabs');
+//      var options = {}
+//      var instance = M.Tabs.init(elem, options);
+//      console.log("something")
+//      instance.open()
 
 
 
@@ -9,16 +11,15 @@ $( document ).ready(function() {
 
 
 
-$('#app-button').on("click", function() {
-
-
-
-})
+$( ".collapsible div" ).mouseover(function() { $(this).trigger('click'); });
 
 
 
 
 });
+
+
+
 
 
   
@@ -27,10 +28,11 @@ $('#app-button').on("click", function() {
   document.addEventListener('DOMContentLoaded', function() {
 
 
-
-
     var elems = document.querySelectorAll('.collapsible');
-    var instances = M.Collapsible.init(elems, options);
+    var instances = M.Collapsible.init(elems);
+    // instances.open();
+    // console.log("something")
+
 
     
   // var instance = M.Collapsible.getInstance(elem);
