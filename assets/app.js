@@ -1,8 +1,3 @@
-// var elem = document.querySelector('.tabs');
-//      var options = {}
-//      var instance = M.Tabs.init(elem, options);
-//      console.log("something")
-//      instance.open()
 
 
 
@@ -13,37 +8,28 @@ $( document ).ready(function() {
 
 $( ".collapsible div" ).mouseover(function() { $(this).trigger('click'); });
 
+$('.tooltipped').tooltip();
+
 
 
 
 });
-
-
-
-
-
-  
-
 
   document.addEventListener('DOMContentLoaded', function() {
 
 
     var elems = document.querySelectorAll('.collapsible');
     var instances = M.Collapsible.init(elems);
-    // instances.open();
-    // console.log("something")
-
-
-    
-  // var instance = M.Collapsible.getInstance(elem);
-
-   // jQuery Method Calls
-    // You can still use the old jQuery plugin method calls.
-    // But you won't be able to access instance properties.
-
-    // $('.collapsible').collapsible('methodName');
-    // $('.collapsible').collapsible('methodName', paramName);
   
       
   });
 
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.tooltipped');
+    var instances = M.Tooltip.init(elems);
+  });
+
+
+
+  
+        
